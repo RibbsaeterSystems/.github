@@ -63,7 +63,9 @@ We do not test our invariant architecture in isolation. ZeroSlop algorithms and 
 - **Compiler-Grade Audits**: Performs deep syntactic, semantic, and invariant verification across C++, Rust, TypeScript, Python, and Go pull requests.
 - **Regression Interception**: Catches subtle off-by-one errors, memory hazards, and hallucinated AI logic before human review or staging deployment.
 - **Deterministic Green Standard**: Enforces unbroken test passing, type integrity, and architectural adherence.
-- **Available on GitHub Marketplace**: [github.com/marketplace/zeroslop-by-ribbsaeter-systems](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
+- **Two Deployment Modalities on GitHub**:
+  - 🚀 **1-Click GitHub App (Recommended)**: [Install ZeroSlop App on GitHub Marketplace](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems) &mdash; instant org-wide webhook monitoring & PR verdict cards.
+  - ⚙️ **GitHub Action**: [Get ZeroSlop Action on GitHub Marketplace](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) &mdash; drop-in step for `.github/workflows/zeroslop.yml`.
 
 #### 2. [Ethereal Casting](https://etherealcasting.com)
 *Autonomous Synthetic Supermodel Talent Agency & Neural Visual Architecture*
