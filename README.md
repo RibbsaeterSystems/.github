@@ -1,26 +1,15 @@
 <div align="center">
 
-  <br />
-
-  <a href="https://ribbsaetersystems.com">
-    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter-systems-wordmark.png" alt="Ribbsaeter Systems Wordmark" width="480" />
-  </a>
+  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero_animated.svg" alt="Ribbsaeter Systems — Sovereign AI Infrastructure &amp; Compiler Invariants" width="100%" />
 
   <br />
-  <br />
-
-  <p align="center">
-    <strong>Autonomous AI Infrastructure &bull; Compiler Invariant Engines &bull; Sovereign Developer Tooling</strong>
-  </p>
 
   <p align="center">
     <a href="https://github.com/RibbsaeterSystems"><img src="https://img.shields.io/badge/GitHub-Verified_Organization-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Verified Organization" /></a>
-    <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems"><img src="https://img.shields.io/badge/Marketplace-ZeroSlop™-0969da?style=for-the-badge&logo=github" alt="ZeroSlop Marketplace" /></a>
-    <a href="https://ribbsaetersystems.com"><img src="https://img.shields.io/badge/Status-100%25_Green_Invariants-D4AF37?style=for-the-badge&logo=shield" alt="Invariant Status" /></a>
-    <a href="https://patrickribbsaeter.com"><img src="https://img.shields.io/badge/Founder-Patrick_Ribbsaeter-161b22?style=for-the-badge&logo=safari" alt="Founder" /></a>
+    <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems"><img src="https://img.shields.io/badge/Marketplace-ZeroSlop™_Engine-0969da?style=for-the-badge&logo=github" alt="ZeroSlop Marketplace" /></a>
+    <a href="https://ribbsaetersystems.com"><img src="https://img.shields.io/badge/Engineering-Sovereign_Studio-D4AF37?style=for-the-badge&logo=shield" alt="Sovereign Studio" /></a>
+    <a href="https://patrickribbsaeter.com"><img src="https://img.shields.io/badge/Founder-Patrick_Ribbsaeter-161b22?style=for-the-badge" alt="Founder" /></a>
   </p>
-
-  <br />
 
 </div>
 
@@ -28,15 +17,62 @@
 
 ### Executive Overview
 
-**Ribbsaeter Systems** is a specialized engineering and autonomous intelligence house founded by **[Patrick Ribbsaeter](https://patrickribbsaeter.com)**. We engineer deterministic CI gatekeepers, compiler-grade invariant enforcement engines, and autonomous multi-agent pipelines for high-reliability software architectures.
+**Ribbsaeter Systems** is a specialized systems engineering house and autonomous intelligence laboratory founded by **[Patrick Ribbsaeter](https://patrickribbsaeter.com)**. We engineer compiler-grade invariant enforcement pipelines, deterministic developer tooling, and distributed AI infrastructure for high-consequence production environments.
 
-Our systems are designed to eliminate non-deterministic regressions, protect core compilers from hallucinated logic, and guarantee **100% green verification** before pull requests enter production codebases.
+We bridge two complementary worlds: **autonomous developer platforms** deployed directly to GitHub Marketplace, and an elite **high-ticket systems engineering practice** advising frontier AI research labs, sovereign cloud operators, and high-frequency scale-ups globally.
+
+---
+
+### Dual Pillars of Operation
+
+```
+┌─────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────┐
+│     PILLAR I: AUTONOMOUS DEVELOPER PLATFORMS            │     PILLAR II: HIGH-TICKET SYSTEMS & ADVISORY           │
+├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────┤
+│ • ZeroSlop™ Engine (GitHub App & Action)                │ • Distributed Systems & Compiler Invariants             │
+│ • Drop-in AST invariant pre-flight airlock              │ • GPU Cluster & KV Cache Sprints ($75K - $150K)         │
+│ • Mechanical interception of AI slop & test deletions   │ • Principal Systems Architecture Retainer ($35K - $65K) │
+│ • 12-Shield deterministic CWE security gatekeeper       │ • Production Platforms: Ethereal Casting & Records      │
+└─────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────┘
+```
+
+---
+
+### Pillar I &bull; Flagship Autonomous Developer Platforms
+
+#### [ZeroSlop™ by Ribbsaeter Systems](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
+*Autonomous Pull Request Invariant Gatekeeper & Zero-Defect CI Guardian*
+
+Modern AI coding agents generate immense code volumes, but over 80% of AI pull requests introduce structural debt, hallucinated wrappers, and unauthorized test deletions. **ZeroSlop™** mathematically audits incoming PR diffs against strict architectural invariants before they reach public CI or human maintainers.
+
+* **Two Native Deployment Modalities**:
+  * 🚀 **1-Click GitHub App (Recommended)**: [Install ZeroSlop App on GitHub Marketplace](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems) &mdash; instant organization-wide webhook monitoring & single self-updating PR verdict cards.
+  * ⚙️ **GitHub Action**: [Deploy ZeroSlop Action](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) &mdash; drop-in step for `.github/workflows/zeroslop.yml` running directly inside volatile runner RAM.
+* **12-Shield Deterministic CWE Airlock**: Blocks SQLi (`CWE-89`), hardcoded credentials (`CWE-798`), IDOR (`CWE-639`), command injection (`CWE-78`), SSRF (`CWE-918`), and CI workflow Pwn Requests (`CWE-426`).
+* **Zero Code Retention**: Diffs are analyzed ephemerally in RAM and purged immediately. Zero data written to disk or third-party AI databases.
+* **Explore Live Simulator & Docs**: [ribbsaetersystems.com/zeroslop](https://ribbsaetersystems.com/zeroslop)
+
+---
+
+### Pillar II &bull; High-Ticket Systems Practice & Sovereign Advisory
+
+Beyond autonomous CI tooling, Ribbsaeter Systems operates an elite, confidential advisory and engineering practice for frontier AI research labs, quantitative trading infrastructure, and scale-ups:
+
+* **GPU Cluster & KV Cache Performance Sprints ($75,000 – $150,000 flat / 2-week turnaround)**:  
+  Direct multi-node GPU cluster intervention. Surgical reduction of multi-gigabyte KV cache memory footprints across H100/H200/B200 clusters, Triton/CUDA operator fusion, disaggregated prefill/decode pipeline architecture, and custom compiler lowerings.
+* **Principal Systems Architecture Retainer ($35,000 – $65,000 / month)**:  
+  Direct access to Patrick Ribbsaeter for core distributed memory hierarchies, low-level CPython free-threading migrations, and mission-critical compiler invariants across OpenAI Triton, LLVM, Meta Velox, and DuckDB.
+* **Enterprise Production Platforms**:
+  * **[Ethereal Casting](https://etherealcasting.com)** &bull; Autonomous synthetic supermodel talent agency & neural aesthetic pipelines.
+  * **[Ribbsaeter Records](https://www.ribbsaeter.com)** &bull; High-fidelity electronic music label & cognitive acoustic sanctuaries.
+
+*Confidential Inquiries*: [contact@ribbsaetersystems.com](mailto:contact@ribbsaetersystems.com) &bull; Subject: `[FRONTIER-SYSTEMS-ADVISORY]` &bull; [Explore Practice &rarr;](https://ribbsaetersystems.com/services/ai-infrastructure)
 
 ---
 
 ### The Wall of Sovereign Proof
 
-We do not test our invariant architecture in isolation. ZeroSlop algorithms and invariant verifications have been proven and merged across the most demanding high-performance compilers, query engines, and runtime systems in modern computing:
+We do not test our invariant architecture in isolation. ZeroSlop algorithms and invariant verifications have been proven and merged directly into the most demanding high-performance compilers, query engines, and runtime systems in computing:
 
 <div align="center">
   <br />
@@ -56,29 +92,6 @@ We do not test our invariant architecture in isolation. ZeroSlop algorithms and 
 
 ---
 
-### Flagship Platforms & Autonomous Systems
-
-#### 1. [ZeroSlop™ by Ribbsaeter Systems](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
-*Autonomous Pull Request Invariant Gatekeeper & Zero-Defect CI Guardian*
-- **Compiler-Grade Audits**: Performs deep syntactic, semantic, and invariant verification across C++, Rust, TypeScript, Python, and Go pull requests.
-- **Regression Interception**: Catches subtle off-by-one errors, memory hazards, and hallucinated AI logic before human review or staging deployment.
-- **Deterministic Green Standard**: Enforces unbroken test passing, type integrity, and architectural adherence.
-- **Two Deployment Modalities on GitHub**:
-  - 🚀 **1-Click GitHub App (Recommended)**: [Install ZeroSlop App on GitHub Marketplace](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems) &mdash; instant org-wide webhook monitoring & PR verdict cards.
-  - ⚙️ **GitHub Action**: [Get ZeroSlop Action on GitHub Marketplace](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) &mdash; drop-in step for `.github/workflows/zeroslop.yml`.
-
-#### 2. [Ethereal Casting](https://etherealcasting.com)
-*Autonomous Synthetic Supermodel Talent Agency & Neural Visual Architecture*
-- Enterprise generative talent pipeline powering high-fashion, commercial editorial campaigns, and luxury synthetic identity.
-- [etherealcasting.com](https://etherealcasting.com)
-
-#### 3. [Ribbsaeter Records](https://www.ribbsaeter.com)
-*Acoustic Sanctuaries & High-Fidelity Electronic Music Label*
-- Curated electronic, minimal, and cognitive flow music imprints (SAETER, BOBBO, Ribbsaeter Focus, Ribbsaeter Minimal).
-- [ribbsaeter.com](https://www.ribbsaeter.com)
-
----
-
 ### The Sovereign Engineering Standard
 
 1. **Zero-Defect Rule**: 100% of contributor-controlled checks (tests, types, linters, invariants) must be validated green locally prior to deployment.
@@ -89,12 +102,14 @@ We do not test our invariant architecture in isolation. ZeroSlop algorithms and 
 
 ### Ecosystem & Contact
 
-- **Primary Website**: [ribbsaetersystems.com](https://ribbsaetersystems.com)
+- **Primary Studio Website**: [ribbsaetersystems.com](https://ribbsaetersystems.com)
 - **Executive Founder**: [Patrick Ribbsaeter](https://patrickribbsaeter.com) ([@patrickswedish](https://github.com/patrickswedish))
-- **Marketplace Listing**: [ZeroSlop™ Engine](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
-- **Enterprise Inquiries & Security**: [contact@ribbsaetersystems.com](mailto:contact@ribbsaetersystems.com)
+- **Marketplace Listing**: [ZeroSlop™ on GitHub Marketplace](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
+- **Direct Executive Desks**:
+  - Technical & Systems Inquiries: [contact@ribbsaetersystems.com](mailto:contact@ribbsaetersystems.com)
+  - Media & Press Relations: [press@ribbsaetersystems.com](mailto:press@ribbsaetersystems.com)
 
 <div align="center">
   <br />
-  <sub>&copy; 2026 Ribbsaeter Systems. All rights reserved. Sovereign Intelligence & Autonomous Engineering.</sub>
+  <sub>&copy; 2026 Ribbsaeter Systems. All rights reserved. Sovereign Intelligence &amp; Autonomous Engineering.</sub>
 </div>
