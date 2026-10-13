@@ -1,14 +1,14 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero_animated.svg" alt="Ribbsaeter Systems — Sovereign AI Infrastructure &amp; Compiler Invariants" width="100%" />
+  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero.png" alt="Ribbsaeter Systems — Builds Serious Systems" width="100%" />
 
   <br />
 
   <p align="center">
-    <a href="https://github.com/RibbsaeterSystems"><img src="https://img.shields.io/badge/GitHub-Verified_Organization-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Verified Organization" /></a>
-    <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems"><img src="https://img.shields.io/badge/Marketplace-ZeroSlop™_Engine-0969da?style=for-the-badge&logo=github" alt="ZeroSlop Marketplace" /></a>
-    <a href="https://ribbsaetersystems.com"><img src="https://img.shields.io/badge/Engineering-Sovereign_Studio-D4AF37?style=for-the-badge&logo=shield" alt="Sovereign Studio" /></a>
-    <a href="https://patrickribbsaeter.com"><img src="https://img.shields.io/badge/Founder-Patrick_Ribbsaeter-161b22?style=for-the-badge" alt="Founder" /></a>
+    <code>ZURICH · AMSTERDAM · EINDHOVEN</code> &nbsp;◆&nbsp;
+    <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ on GitHub Marketplace</b></a> &nbsp;◆&nbsp;
+    <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a> &nbsp;◆&nbsp;
+    <a href="https://patrickribbsaeter.com"><b>patrickribbsaeter.com</b></a>
   </p>
 
 </div>
