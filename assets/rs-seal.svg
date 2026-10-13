@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ribbsaeter Systems seal</title>
+  <desc id="desc">RIBBSAETER SYSTEMS circular seal mark for social profiles, favicons, and system footers.</desc>
+  <rect width="260" height="260" fill="#050505"/>
+  <circle cx="130" cy="130" r="105" fill="none" stroke="#f4f0e8" stroke-opacity=".42" stroke-width="2"/>
+  <circle cx="130" cy="130" r="86" fill="none" stroke="#e33126" stroke-width="6"/>
+  <text x="130" y="143" text-anchor="middle" fill="#f4f0e8" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="86" font-weight="700" letter-spacing="-4">RS</text>
+  <text x="130" y="190" text-anchor="middle" fill="#f4f0e8" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="5">SYSTEMS</text>
+</svg>

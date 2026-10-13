@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 150" role="img" aria-labelledby="title desc">
+  <title id="title">Ribbsaeter Systems wordmark</title>
+  <desc id="desc">Condensed uppercase wordmark for Ribbsaeter Systems.</desc>
+  <rect width="960" height="150" fill="none"/>
+  <text x="0" y="76" fill="#050505" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="74" font-weight="700" letter-spacing="10">RIBBSAETER</text>
+  <text x="4" y="128" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="18">SYSTEMS</text>
+  <path d="M430 116h528" stroke="#e33126" stroke-width="8"/>
+</svg>

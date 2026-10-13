@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Ribbsaeter Systems RS monogram</title>
+  <desc id="desc">Condensed RS monogram with red systems signal.</desc>
+  <rect width="220" height="220" fill="none"/>
+  <path d="M19 18h182v184H19z" fill="#050505"/>
+  <path d="M34 34h152v152H34z" fill="none" stroke="#f4f0e8" stroke-opacity=".38" stroke-width="2"/>
+  <text x="42" y="139" fill="#f4f0e8" font-family="Arial Narrow, Helvetica, Arial, sans-serif" font-size="98" font-weight="700" letter-spacing="-4">RS</text>
+  <path d="M38 166h144" stroke="#e33126" stroke-width="8"/>
+</svg>
