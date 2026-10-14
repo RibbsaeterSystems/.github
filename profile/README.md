@@ -6,7 +6,7 @@
 
   <p align="center">
     <code>ZURICH · AMSTERDAM · EINDHOVEN</code> &nbsp;◆&nbsp;
-    <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ on GitHub Marketplace</b></a> &nbsp;◆&nbsp;
+    <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ on GitHub Marketplace</b></a> &nbsp;◆&nbsp;
     <a href="https://ribbsaetersystems.com"><b>ribbsaetersystems.com</b></a> &nbsp;◆&nbsp;
     <a href="https://patrickribbsaeter.com"><b>patrickribbsaeter.com</b></a>
   </p>
@@ -40,13 +40,13 @@ We bridge two complementary worlds: **autonomous developer platforms** deployed 
 
 ### Pillar I &bull; Flagship Autonomous Developer Platforms
 
-#### [ZeroSlop™ by Ribbsaeter Systems](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems)
+#### [ZeroSlop™ by Ribbsaeter Systems](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems)
 *Autonomous Pull Request Invariant Gatekeeper & Zero-Defect CI Guardian*
 
 Modern AI coding agents generate immense code volumes, but over 80% of AI pull requests introduce structural debt, hallucinated wrappers, and unauthorized test deletions. **ZeroSlop™** mathematically audits incoming PR diffs against strict architectural invariants before they reach public CI or human maintainers.
 
 * **Two Native Deployment Modalities**:
-  * 🚀 **1-Click GitHub App (Recommended)**: [Install ZeroSlop App on GitHub Marketplace](https://github.com/marketplace/zeroslop-by-ribbsaeter-systems) &mdash; instant organization-wide webhook monitoring & single self-updating PR verdict cards.
+  * 🚀 **1-Click GitHub App (Recommended)**: [Install ZeroSlop GitHub App](https://github.com/apps/zeroslop-engine) &mdash; instant organization-wide webhook monitoring & single self-updating PR verdict cards.
   * ⚙️ **GitHub Action**: [Deploy ZeroSlop Action](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) &mdash; drop-in step for `.github/workflows/zeroslop.yml` running directly inside volatile runner RAM.
 * **12-Shield Deterministic CWE Airlock**: Blocks SQLi (`CWE-89`), hardcoded credentials (`CWE-798`), IDOR (`CWE-639`), command injection (`CWE-78`), SSRF (`CWE-918`), and CI workflow Pwn Requests (`CWE-426`).
 * **Zero Code Retention**: Diffs are analyzed ephemerally in RAM and purged immediately. Zero data written to disk or third-party AI databases.
@@ -76,7 +76,7 @@ We do not test our invariant architecture in isolation. ZeroSlop algorithms and 
 
 <div align="center">
   <br />
-  <a href="https://github.com/marketplace/zeroslop-by-ribbsaeter-systems">
+  <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
     <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_sovereign_proof.png" alt="ZeroSlop Sovereign Proof - Upstream Compiler Invariant Merges" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
   </a>
   <br />
