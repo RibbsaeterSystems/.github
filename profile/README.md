@@ -29,14 +29,14 @@ Every uninspected line of synthetic diff is an enterprise balance sheet liabilit
 
 <div align="center">
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_product_banner_animated.svg" alt="ZeroSlop™ by Ribbsaeter Systems - Sovereign CI Invariant Airlock" width="100%" />
+    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_architecture_banner_swissred.svg" alt="ZeroSlop™ by Ribbsaeter Systems - Sovereign CI Invariant Airlock" width="100%" />
   </a>
 
   <p align="center">
-    <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>⚡ Deploy on GitHub Marketplace</b></a> &nbsp;&bull;&nbsp;
-    <a href="https://github.com/apps/zeroslop-engine"><b>🚀 1-Click GitHub App</b></a> &nbsp;&bull;&nbsp;
-    <a href="https://ribbsaetersystems.com/zeroslop"><b>🔬 Interactive Simulator</b></a> &nbsp;&bull;&nbsp;
-    <a href="https://ribbsaetersystems.com/zeroslop/security"><b>🔒 Zero-Retention Security Brief</b></a>
+    <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems"><b>ZeroSlop™ Action</b></a> &nbsp;◆&nbsp;
+    <a href="https://github.com/apps/zeroslop-engine"><b>1-Click GitHub App</b></a> &nbsp;◆&nbsp;
+    <a href="https://ribbsaetersystems.com/zeroslop"><b>Live Simulator</b></a> &nbsp;◆&nbsp;
+    <a href="https://ribbsaetersystems.com/zeroslop/security"><b>Zero-Retention Security</b></a>
   </p>
 </div>
 
