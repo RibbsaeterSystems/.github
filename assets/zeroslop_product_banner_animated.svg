@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">ZeroSlop™ by Ribbsaeter Systems — Autonomous CI Pull Request Invariant Gatekeeper</title>
+  <desc id="banner-desc">Architectural banner showcasing ZeroSlop on GitHub Marketplace, featuring real-time diff invariant verification, test deletion shield, and diff minimization engine.</desc>
+  <defs>
+    <style>
+      .beam-red{stroke-dasharray:6 8;animation:beamFlow 3s linear infinite}
+      .beam-green{stroke-dasharray:6 8;animation:beamFlow 3s linear infinite}
+      .pulse-beacon{animation:beaconGlow 2.5s ease-in-out infinite}
+      .sheen{animation:sheenPass 9s ease-in-out infinite}
+      .lock-pulse{animation:lockGlow 3s ease-in-out infinite}
+      @keyframes beamFlow{to{stroke-dashoffset:-56}}
+      @keyframes beaconGlow{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes lockGlow{0%,100%{filter:drop-shadow(0 0 4px #5FE7FF)}50%{filter:drop-shadow(0 0 12px #5FE7FF)}}
+      @keyframes sheenPass{0%,12%{transform:translateX(-320px);opacity:0}24%{opacity:.15}56%{opacity:.05}72%,100%{transform:translateX(1300px);opacity:0}}
+      @media (prefers-reduced-motion:reduce){
+        .beam-red,.beam-green,.pulse-beacon,.sheen,.lock-pulse{animation:none}
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050811"/>
+      <stop offset=".45" stop-color="#080F1D"/>
+      <stop offset="1" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="red-laser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E33126"/>
+      <stop offset=".6" stop-color="#FF5544"/>
+      <stop offset="1" stop-color="#FF8A7A"/>
+    </linearGradient>
+    <linearGradient id="green-laser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#059669"/>
+      <stop offset=".5" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="center-card-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E33126" stop-opacity=".7"/>
+      <stop offset=".5" stop-color="#5FE7FF" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity=".7"/>
+    </linearGradient>
+    <linearGradient id="shield-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#152438"/>
+      <stop offset=".5" stop-color="#0B1523"/>
+      <stop offset="1" stop-color="#050A12"/>
+    </linearGradient>
+    <linearGradient id="card-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E33126" stop-opacity=".75"/>
+      <stop offset=".45" stop-color="#5FE7FF" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#2F81F7" stop-opacity=".65"/>
+    </linearGradient>
+
+    <!-- Halos -->
+    <radialGradient id="halo-left" cx=".15" cy=".2" r=".6">
+      <stop offset="0" stop-color="#E33126" stop-opacity=".18"/>
+      <stop offset=".55" stop-color="#80120B" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#050811" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo-center" cx="912" cy="190" r="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5FE7FF" stop-opacity=".22"/>
+      <stop offset=".4" stop-color="#2F81F7" stop-opacity=".10"/>
+      <stop offset=".7" stop-color="#E33126" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#050811" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Blueprint Grid -->
+    <pattern id="arch-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#75DDF0" stroke-opacity=".045"/>
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glow-red" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-cyan" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-green" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="card-frame">
+      <rect width="1200" height="380" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-frame)">
+    <!-- Canvas & Halos -->
+    <rect width="1200" height="380" fill="url(#bg-grad)"/>
+    <rect width="1200" height="380" fill="url(#halo-left)"/>
+    <circle cx="912" cy="190" r="130" fill="url(#halo-center)"/>
+    <rect width="1200" height="380" fill="url(#arch-grid)"/>
+
+    <!-- Kinetic Sheen -->
+    <path class="sheen" d="M-220 0h120L40 380H-80Z" fill="#BFF5FF" opacity="0"/>
+
+    <!-- Architectural Construction Lines -->
+    <path d="M0 338H1200" stroke="#75DDF0" stroke-opacity=".10"/>
+    <path d="M648 0V380" stroke="#75DDF0" stroke-opacity=".08"/>
+    <circle cx="648" cy="338" r="3" fill="#5FE7FF" opacity=".6"/>
+
+    <!-- ══ LEFT COLUMN: BRAND & VALUE PROPOSITION ══ -->
+    <g transform="translate(56, 0)">
+      <!-- Top Pill Badge -->
+      <g transform="translate(0, 46)">
+        <rect width="362" height="28" rx="14" fill="#1B0A0E" stroke="#E33126" stroke-opacity=".55" stroke-width="1.2"/>
+        <circle cx="16" cy="14" r="4.5" fill="#E33126" class="pulse-beacon"/>
+        <text x="28" y="18" fill="#FF8A7A" font-family="'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.4">FLAGSHIP RELEASE · GITHUB MARKETPLACE · v1.0.0</text>
+      </g>
+
+      <!-- Sovereign Logo Monolith -->
+      <g transform="translate(0, 126)">
+        <text x="0" y="0" fill="#F4F9FF" font-family="'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="56" font-weight="900" letter-spacing="-1.8">ZeroSlop<tspan fill="#E33126">™</tspan></text>
+      </g>
+
+      <!-- Swiss Red Laser Rule -->
+      <rect x="0" y="142" width="540" height="3" rx="1.5" fill="url(#red-laser)" filter="url(#glow-red)"/>
+
+      <!-- Subtitle -->
+      <text x="0" y="172" fill="#5FE7FF" font-family="'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.2">AUTONOMOUS CI PULL REQUEST INVARIANT GATEKEEPER</text>
+
+      <!-- Value Proposition Narrative -->
+      <text x="0" y="206" fill="#E1ECF7" font-family="'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="500" letter-spacing="-.2">Mechanical AST diff minimization engine engineered for zero-regression CI/CD.</text>
+      <text x="0" y="230" fill="#9BB0C7" font-family="'Inter',-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="400">Intercepts AI-generated slop, phantom refactorings, and unauthorized test deletions.</text>
+
+      <!-- 4 Invariant Feature Badges -->
+      <g transform="translate(0, 266)">
+        <!-- Badge 1: Test Deletion Guard -->
+        <rect x="0" y="0" width="156" height="26" rx="6" fill="#1C090C" stroke="#E33126" stroke-opacity=".5" stroke-width="1"/>
+        <text x="78" y="16.5" text-anchor="middle" fill="#FF8A7A" font-family="Consolas,monospace" font-size="10" font-weight="700" letter-spacing=".6">🛡 ZERO TEST DELETIONS</text>
+
+        <!-- Badge 2: Diff Minimizer -->
+        <rect x="166" y="0" width="128" height="26" rx="6" fill="#081622" stroke="#00B8D9" stroke-opacity=".5" stroke-width="1"/>
+        <text x="230" y="16.5" text-anchor="middle" fill="#5FE7FF" font-family="Consolas,monospace" font-size="10" font-weight="700" letter-spacing=".6">⚡ DIFF MINIMIZER</text>
+
+        <!-- Badge 3: AST Verifier -->
+        <rect x="304" y="0" width="118" height="26" rx="6" fill="#120D22" stroke="#9333EA" stroke-opacity=".5" stroke-width="1"/>
+        <text x="363" y="16.5" text-anchor="middle" fill="#C084FC" font-family="Consolas,monospace" font-size="10" font-weight="700" letter-spacing=".6">◈ AST PARSER</text>
+
+        <!-- Badge 4: Multi-OS -->
+        <rect x="432" y="0" width="112" height="26" rx="6" fill="#071915" stroke="#10B981" stroke-opacity=".5" stroke-width="1"/>
+        <text x="488" y="16.5" text-anchor="middle" fill="#34D399" font-family="Consolas,monospace" font-size="10" font-weight="700" letter-spacing=".6">✓ MULTI-OS CI</text>
+      </g>
+    </g>
+
+    <!-- ══ RIGHT COLUMN: SYMMETRICAL 3-STAGE INVARIANT PIPELINE ARCHITECTURE ══ -->
+    <!-- Balanced Geometry: Left Margin = Right Margin = 56px. Centerline Y = 190. -->
+
+    <!-- Laser Bus 1: Ingest Card to Airlock Core -->
+    <line x1="804" y1="190" x2="840" y2="190" stroke="#E33126" stroke-width="2.5" class="beam-red"/>
+    <circle cx="804" cy="190" r="3.5" fill="#E33126" filter="url(#glow-red)"/>
+    <circle cx="840" cy="190" r="3" fill="#E33126"/>
+
+    <!-- Laser Bus 2: Airlock Core to Green Exit -->
+    <line x1="984" y1="190" x2="1020" y2="190" stroke="#10B981" stroke-width="2.5" class="beam-green"/>
+    <circle cx="984" cy="190" r="3" fill="#10B981"/>
+    <circle cx="1020" cy="190" r="3.5" fill="#10B981" filter="url(#glow-green)"/>
+
+    <!-- ── STAGE 1: INGEST NODE CARD (X: 680 to 804, Y: 110 to 270) ── -->
+    <g transform="translate(680, 110)">
+      <rect width="124" height="160" rx="14" fill="#070E1A" stroke="#75DDF0" stroke-opacity=".25" stroke-width="1.2"/>
+      <path d="M0 14 C0 6.27 6.27 0 14 0 H110 C117.73 0 124 6.27 124 14 V30 H0 Z" fill="#0F1F35"/>
+      <text x="62" y="19.5" text-anchor="middle" fill="#75DDF0" font-family="Consolas,monospace" font-size="9.5" font-weight="700" letter-spacing="1">PR DIFF INGEST</text>
+      
+      <circle cx="16" cy="54" r="2.2" fill="#5FE7FF"/>
+      <text x="24" y="57" fill="#E1ECF7" font-family="Consolas,monospace" font-size="9.5">Git Diff Stream</text>
+
+      <circle cx="16" cy="78" r="2.2" fill="#FF8A7A"/>
+      <text x="24" y="81" fill="#FF8A7A" font-family="Consolas,monospace" font-size="9.5">+420 Lines Bloat</text>
+
+      <circle cx="16" cy="102" r="2.2" fill="#FF6E63"/>
+      <text x="24" y="105" fill="#FF8A7A" font-family="Consolas,monospace" font-size="9.5">! Test Mutation</text>
+
+      <circle cx="16" cy="126" r="2.2" fill="#75DDF0"/>
+      <text x="24" y="129" fill="#75DDF0" font-family="Consolas,monospace" font-size="9.5">AST Tokenized</text>
+
+      <rect x="12" y="142" width="100" height="1" fill="#75DDF0" opacity=".15"/>
+    </g>
+
+    <!-- ── STAGE 2: HERO INVARIANT AIRLOCK CHAMBER CARD (X: 840 to 984, Y: 96 to 284, height: 188) ── -->
+    <g transform="translate(840, 96)">
+      <!-- Chamber Container Base -->
+      <rect width="144" height="188" rx="16" fill="#060C16" stroke="url(#center-card-border)" stroke-width="1.6"/>
+      
+      <!-- Chamber Header Plate -->
+      <path d="M0 16 C0 7.16 7.16 0 16 0 H128 C136.84 0 144 7.16 144 16 V32 H0 Z" fill="#0C1B2E"/>
+      <text x="72" y="20.5" text-anchor="middle" fill="#5FE7FF" font-family="'Inter',sans-serif" font-size="9.5" font-weight="800" letter-spacing="1.2">INVARIANT AIRLOCK</text>
+
+      <!-- Sub-header hairline indicator -->
+      <line x1="0" y1="32" x2="144" y2="32" stroke="#5FE7FF" stroke-opacity=".35" stroke-width="1"/>
+
+      <!-- ── CENTRAL CYBERNETIC INVARIANT SHIELD CREST (Centered at X: 72, Y: 88 inside card) ── -->
+      <g transform="translate(72, 88)">
+        <!-- Shield Outer Glow & Silhouette -->
+        <!-- Aerodynamic modern cyber-shield: width 64px, height 74px -->
+        <path d="M -32 -34 C -32 -37, -22 -38, 0 -38 C 22 -38, 32 -37, 32 -34 C 32 -3, 26 22, 0 38 C -26 22, -32 -3, -32 -34 Z"
+              fill="url(#shield-body)"
+              stroke="#5FE7FF"
+              stroke-width="1.8"
+              filter="url(#glow-cyan)"/>
+
+        <!-- Inner Metallic Bevel -->
+        <path d="M -27 -31 C -27 -33, -18 -34, 0 -34 C 18 -34, 27 -33, 27 -31 C 27 -2, 22 18, 0 32 C -22 18, -27 -2, -27 -31 Z"
+              fill="none"
+              stroke="#2F81F7"
+              stroke-width="1"
+              stroke-opacity=".7"/>
+
+        <!-- Invariant Padlock Core & AST Prism (Centered in Shield) -->
+        <g class="lock-pulse">
+          <!-- Shackle: Hardened Arch -->
+          <path d="M -9 -7 V -14 C -9 -19, -5 -23, 0 -23 C 5 -23, 9 -19, 9 -14 V -7" 
+                fill="none" 
+                stroke="#5FE7FF" 
+                stroke-width="2.5" 
+                stroke-linecap="round"/>
+
+          <!-- Solid Obsidian Padlock Body -->
+          <rect x="-13" y="-7" width="26" height="20" rx="4" fill="#0A1828" stroke="#5FE7FF" stroke-width="1.5"/>
+
+          <!-- Keyhole Invariant AST Node Diamond -->
+          <path d="M 0 -1 L 4 3 L 0 7 L -4 3 Z" fill="#5FE7FF"/>
+          <line x1="0" y1="7" x2="0" y2="10" stroke="#5FE7FF" stroke-width="1.5" stroke-linecap="round"/>
+        </g>
+
+        <!-- Cybernetic Corner Nodes -->
+        <circle cx="-19" cy="-24" r="1.5" fill="#5FE7FF" opacity=".8"/>
+        <circle cx="19" cy="-24" r="1.5" fill="#5FE7FF" opacity=".8"/>
+        <circle cx="-18" cy="12" r="1.5" fill="#5FE7FF" opacity=".6"/>
+        <circle cx="18" cy="12" r="1.5" fill="#5FE7FF" opacity=".6"/>
+      </g>
+
+      <!-- Chamber Lower Status Console -->
+      <rect x="12" y="136" width="120" height="20" rx="10" fill="#091624" stroke="#5FE7FF" stroke-opacity=".3" stroke-width="1"/>
+      <circle cx="22" cy="146" r="3" fill="#10B981" filter="url(#glow-green)"/>
+      <text x="32" y="149.5" fill="#E1ECF7" font-family="Consolas,monospace" font-size="8.5" font-weight="700" letter-spacing=".5">AST INVARIANTS OK</text>
+
+      <text x="72" y="174" text-anchor="middle" fill="#6EE7B7" font-family="Consolas,monospace" font-size="8.5" font-weight="700" letter-spacing=".6">0.00% DRIFT LOCK</text>
+    </g>
+
+    <!-- ── STAGE 3: VERIFICATION OUTPUT NODE CARD (X: 1020 to 1144, Y: 110 to 270) ── -->
+    <g transform="translate(1020, 110)">
+      <rect width="124" height="160" rx="14" fill="#061311" stroke="#10B981" stroke-opacity=".35" stroke-width="1.2"/>
+      <path d="M0 14 C0 6.27 6.27 0 14 0 H110 C117.73 0 124 6.27 124 14 V30 H0 Z" fill="#0D2B24"/>
+      <text x="62" y="19.5" text-anchor="middle" fill="#34D399" font-family="Consolas,monospace" font-size="9.5" font-weight="700" letter-spacing="1">EXIT 0 : GREEN</text>
+      
+      <circle cx="16" cy="54" r="2.2" fill="#34D399"/>
+      <text x="24" y="57" fill="#34D399" font-family="Consolas,monospace" font-size="9.5">✓ Invariants OK</text>
+
+      <circle cx="16" cy="78" r="2.2" fill="#6EE7B7"/>
+      <text x="24" y="81" fill="#6EE7B7" font-family="Consolas,monospace" font-size="9.5">✓ Zero Test Drop</text>
+
+      <circle cx="16" cy="102" r="2.2" fill="#75DDF0"/>
+      <text x="24" y="105" fill="#75DDF0" font-family="Consolas,monospace" font-size="9.5">✓ Minimal Scope</text>
+
+      <circle cx="16" cy="126" r="2.2" fill="#A7F3D0"/>
+      <text x="24" y="129" fill="#A7F3D0" font-family="Consolas,monospace" font-size="9.5">✓ AST Approved</text>
+
+      <rect x="12" y="142" width="100" height="1" fill="#10B981" opacity=".15"/>
+    </g>
+
+    <!-- Technical Watermark Coordinates -->
+    <text x="1144" y="356" text-anchor="end" fill="#627D98" font-family="Consolas,monospace" font-size="11" letter-spacing="1.6">RIBBSAETER SYSTEMS · ZÜRICH · CH / 47.3769° N</text>
+
+    <!-- Outer Perimeter Hairline Frame -->
+    <rect x=".75" y=".75" width="1198.5" height="378.5" rx="23.25" fill="none" stroke="url(#card-border)" stroke-width="1.5"/>
+  </g>
+</svg>

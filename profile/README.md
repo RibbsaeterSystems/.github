@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero.png" alt="Ribbsaeter Systems — Builds Serious Systems" width="100%" />
+  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero_animated.svg" alt="Ribbsaeter Systems — Developer Tooling & Invariant Laboratory" width="100%" />
 
   <br />
 
@@ -29,7 +29,7 @@ Every uninspected line of synthetic diff is an enterprise balance sheet liabilit
 
 <div align="center">
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_sovereign_proof.png" alt="ZeroSlop by Ribbsaeter Systems - Sovereign CI Gatekeeper" width="100%" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.8);" />
+    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/zeroslop_product_banner_animated.svg" alt="ZeroSlop™ by Ribbsaeter Systems - Sovereign CI Invariant Airlock" width="100%" />
   </a>
 
   <br/><br/>

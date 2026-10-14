@@ -1,172 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Ribbsaeter Systems — Developer Tooling &amp; Invariant Laboratory</title>
+  <desc id="desc">A dark precision-engineered banner with a kinetic systems visualization, architectural grid, and Ribbsaeter Systems positioning.</desc>
   <defs>
-    <!-- Background Gradient -->
-    <radialGradient id="bgGlow" cx="50%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#0e1726" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#060910" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#030407" stop-opacity="1" />
-    </radialGradient>
-
-    <!-- Animated Border Laser Gradient -->
-    <linearGradient id="laserBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.2">
-        <animate attributeName="stop-color" values="#d4af37;#38d8ff;#00ff88;#d4af37" dur="8s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.8">
-        <animate attributeName="stop-opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0.2">
-        <animate attributeName="stop-color" values="#00f0ff;#d4af37;#38d8ff;#00f0ff" dur="8s" repeatCount="indefinite" />
-      </stop>
-    </linearGradient>
-
-    <!-- Shimmering Metallic Gold Gradient for Typography -->
-    <linearGradient id="goldShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="25%" stop-color="#FFE8A3" />
-      <stop offset="50%" stop-color="#D4AF37" />
-      <stop offset="75%" stop-color="#FFF5D6" />
-      <stop offset="100%" stop-color="#FFFFFF" />
-      <animateTransform
-        attributeName="gradientTransform"
-        type="translate"
-        from="-1 0"
-        to="1 0"
-        dur="4.5s"
-        repeatCount="indefinite"
-      />
-    </linearGradient>
-
-    <!-- Subtle Ambient Cyan Accent Glow -->
-    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.85">
-        <animate attributeName="stop-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
-    </linearGradient>
-
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <filter id="statusPulse" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
     <style>
-      @keyframes radarSweep {
-        0% { transform: translateX(-100%); }
-        100% { transform: translateX(100%); }
-      }
-      @keyframes pulseLight {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 0.85; }
-      }
-      @keyframes beacon {
-        0%, 100% { r: 4px; opacity: 1; }
-        50% { r: 6.5px; opacity: 0.5; }
-      }
-      .title-text {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-weight: 900;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-      }
-      .sub-text {
-        font-family: "SF Mono", Monaco, "Courier New", monospace;
-        font-weight: 600;
-        letter-spacing: 0.28em;
-        text-transform: uppercase;
-      }
-      .badge-text {
-        font-family: "SF Mono", Monaco, "Courier New", monospace;
-        font-weight: 700;
-        letter-spacing: 0.15em;
+      .signal{stroke-dasharray:10 18;animation:signalFlow 7s linear infinite}
+      .node-a{animation:nodePulse 2.8s ease-in-out infinite}
+      .node-b{animation:nodePulse 2.8s ease-in-out 1.4s infinite}
+      .orbit{transform-origin:1018px 190px;animation:orbitSpin 18s linear infinite}
+      .orbit-reverse{transform-origin:1018px 190px;animation:orbitSpin 12s linear infinite reverse}
+      .core{animation:corePulse 3.6s ease-in-out infinite}
+      .scan{animation:scanMove 8s ease-in-out infinite}
+      @keyframes signalFlow{to{stroke-dashoffset:-112}}
+      @keyframes nodePulse{0%,100%{opacity:.38}50%{opacity:1}}
+      @keyframes orbitSpin{to{transform:rotate(360deg)}}
+      @keyframes corePulse{0%,100%{opacity:.55}50%{opacity:1}}
+      @keyframes scanMove{0%,12%{transform:translateX(-260px);opacity:0}24%{opacity:.12}55%{opacity:.06}72%,100%{transform:translateX(1220px);opacity:0}}
+      @media (prefers-reduced-motion:reduce){
+        .signal,.node-a,.node-b,.orbit,.orbit-reverse,.core,.scan{animation:none}
       }
     </style>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050A12"/>
+      <stop offset=".58" stop-color="#0A1423"/>
+      <stop offset="1" stop-color="#10243A"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00B8D9"/>
+      <stop offset=".5" stop-color="#5FE7FF"/>
+      <stop offset="1" stop-color="#2F81F7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".86" cy=".18" r=".72">
+      <stop offset="0" stop-color="#26D9FF" stop-opacity=".20"/>
+      <stop offset=".55" stop-color="#1379A5" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#07111E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#B8D8EE" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="26"/></clipPath>
   </defs>
 
-  <!-- Background Base -->
-  <rect width="1200" height="320" rx="16" fill="url(#bgGlow)" />
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#background)"/>
+    <rect width="1200" height="380" fill="url(#halo)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <path class="scan" d="M-180 0h110L90 380H-20Z" fill="#BFF5FF" opacity="0"/>
+    <path d="M0 342H1200" stroke="#A8DFF0" stroke-opacity=".12"/>
+    <path d="M740 0V380" stroke="#A8DFF0" stroke-opacity=".08"/>
 
-  <!-- Subtle Tech Grid Pattern Lines -->
-  <g opacity="0.08" stroke="#38d8ff" stroke-width="1">
-    <line x1="0" y1="40" x2="1200" y2="40" />
-    <line x1="0" y1="80" x2="1200" y2="80" />
-    <line x1="0" y1="120" x2="1200" y2="120" />
-    <line x1="0" y1="160" x2="1200" y2="160" />
-    <line x1="0" y1="200" x2="1200" y2="200" />
-    <line x1="0" y1="240" x2="1200" y2="240" />
-    <line x1="0" y1="280" x2="1200" y2="280" />
+    <!-- Kinetic Signal Traces -->
+    <g class="signal" opacity=".58" fill="none" stroke="url(#cyan)" stroke-width="1.5">
+      <path d="M825 72h101l29 29h113"/>
+      <path d="M790 126h83l32 32h181"/>
+      <path d="M861 256h84l31-31h149"/>
+      <path d="M804 306h118l28-28h97"/>
+      <circle class="node-a" cx="825" cy="72" r="4" fill="#5FE7FF" stroke="none"/>
+      <circle class="node-b" cx="1068" cy="101" r="4" fill="#2F81F7" stroke="none"/>
+      <circle class="node-b" cx="790" cy="126" r="4" fill="#00B8D9" stroke="none"/>
+      <circle class="node-a" cx="1086" cy="158" r="4" fill="#5FE7FF" stroke="none"/>
+      <circle class="node-a" cx="861" cy="256" r="4" fill="#2F81F7" stroke="none"/>
+      <circle class="node-b" cx="1125" cy="225" r="4" fill="#00B8D9" stroke="none"/>
+    </g>
 
-    <line x1="150" y1="0" x2="150" y2="320" />
-    <line x1="300" y1="0" x2="300" y2="320" />
-    <line x1="450" y1="0" x2="450" y2="320" />
-    <line x1="600" y1="0" x2="600" y2="320" />
-    <line x1="750" y1="0" x2="750" y2="320" />
-    <line x1="900" y1="0" x2="900" y2="320" />
-    <line x1="1050" y1="0" x2="1050" y2="320" />
-  </g>
+    <!-- Kinetic Planetary / Orbital Reactor -->
+    <g>
+      <circle cx="1018" cy="190" r="82" fill="#07111D" stroke="#5FE7FF" stroke-opacity=".18"/>
+      <circle class="orbit" cx="1018" cy="190" r="70" fill="none" stroke="url(#cyan)" stroke-width="1.5" stroke-dasharray="52 18 6 24"/>
+      <circle class="orbit-reverse" cx="1018" cy="190" r="49" fill="none" stroke="#5FE7FF" stroke-opacity=".55" stroke-width="1.2" stroke-dasharray="22 14"/>
+      <g class="orbit">
+        <circle cx="1018" cy="120" r="6" fill="#5FE7FF"/>
+        <circle cx="1079" cy="224" r="5" fill="#2F81F7"/>
+        <circle cx="957" cy="224" r="4" fill="#00B8D9"/>
+      </g>
+      <g class="core">
+        <path d="m1018 158 28 16v32l-28 16-28-16v-32Z" fill="#0A2031" stroke="url(#cyan)" stroke-width="2"/>
+        <circle cx="1018" cy="190" r="12" fill="url(#cyan)"/>
+        <circle cx="1018" cy="190" r="4" fill="#F4F9FF"/>
+      </g>
+      <path d="M934 190h35m98 0h35M1018 106v35m0 98v35" stroke="#5FE7FF" stroke-opacity=".3" stroke-dasharray="4 8"/>
+    </g>
 
-  <!-- Precision Corner Frame Accents -->
-  <path d="M 24 45 L 24 24 L 45 24" fill="none" stroke="#d4af37" stroke-width="2.5" opacity="0.9" />
-  <path d="M 1176 45 L 1176 24 L 1155 24" fill="none" stroke="#d4af37" stroke-width="2.5" opacity="0.9" />
-  <path d="M 24 275 L 24 296 L 45 296" fill="none" stroke="#d4af37" stroke-width="2.5" opacity="0.9" />
-  <path d="M 1176 275 L 1176 296 L 1155 296" fill="none" stroke="#d4af37" stroke-width="2.5" opacity="0.9" />
+    <!-- Sovereign Brand Typography (Inter / System Fonts) -->
+    <g font-family="Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+      <text x="72" y="78" fill="#75DDF0" font-size="13.5" font-weight="700" letter-spacing="3.8">DEVELOPER TOOLING &amp; INVARIANT LABORATORY</text>
+      <text x="68" y="164" fill="#F4F9FF" font-size="57" font-weight="800" letter-spacing="-1.8">RIBBSAETER</text>
+      <text x="68" y="224" fill="#F4F9FF" font-size="57" font-weight="800" letter-spacing="-1.8">SYSTEMS</text>
+      <rect x="72" y="246" width="590" height="3" rx="1.5" fill="url(#cyan)" filter="url(#glow)"/>
+      <text x="72" y="293" fill="#C8D8E8" font-size="21" font-weight="600">Deterministic pull request invariants &amp; diff minimization.</text>
+      <text x="72" y="330" fill="#7F9BB5" font-size="13.5" font-weight="600" letter-spacing="2.2">DIFF MINIMIZATION · TEST PRESERVATION · 12-SHIELD CWE AIRLOCK</text>
+    </g>
 
-  <!-- Outer Hairline Precision Border -->
-  <rect x="12" y="12" width="1176" height="296" rx="12" fill="none" stroke="url(#laserBorder)" stroke-width="1.2" />
+    <text x="1128" y="354" text-anchor="end" fill="#6D8BA5" font-family="Consolas,monospace" font-size="11" letter-spacing="1.6">ZÜRICH · AMSTERDAM · EINDHOVEN · CH / 47.3769° N</text>
 
-  <!-- Top Telemetry Status Pill -->
-  <g transform="translate(600, 52)">
-    <rect x="-195" y="-14" width="390" height="28" rx="14" fill="#060e18" stroke="rgba(0, 240, 255, 0.35)" stroke-width="1" />
-    
-    <!-- Pulsing Green Telemetry Beacon -->
-    <circle cx="-168" cy="0" r="4.5" fill="#00ff88" filter="url(#statusPulse)">
-      <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="-168" cy="0" r="2" fill="#ffffff" />
-
-    <text x="-150" y="4" fill="#00f0ff" font-size="11" class="badge-text">
-      SYSTEM INVARIANTS: 100% OPERATIONAL
-    </text>
-  </g>
-
-  <!-- Ambient Light Sweep Behind Hero Text -->
-  <ellipse cx="600" cy="138" rx="340" ry="45" fill="#38d8ff" opacity="0.08" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="0.05;0.12;0.05" dur="4s" repeatCount="indefinite" />
-  </ellipse>
-
-  <!-- Hero Wordmark Typography (No redundant logo icon) -->
-  <text x="600" y="148" text-anchor="middle" fill="url(#goldShimmer)" font-size="52" class="title-text" filter="url(#softGlow)">
-    RIBBSAETER SYSTEMS
-  </text>
-
-  <!-- Center Decorative Cyan Laser Line -->
-  <line x1="320" y1="184" x2="880" y2="184" stroke="url(#cyanLine)" stroke-width="1.5" />
-  <polygon points="600,180 604,184 600,188 596,184" fill="#d4af37" />
-
-  <!-- Monolith Domain Subtitle -->
-  <text x="600" y="218" text-anchor="middle" fill="#d6e2ed" font-size="14.5" class="sub-text" opacity="0.95">
-    AUTONOMOUS AI INFRASTRUCTURE  •  COMPILER INVARIANTS  •  SOVEREIGN SYSTEMS
-  </text>
-
-  <!-- Bottom Proof Telemetry Pill Array -->
-  <g transform="translate(600, 268)">
-    <rect x="-360" y="-15" width="720" height="30" rx="15" fill="#080c14" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1" />
-    
-    <text x="-335" y="4.5" fill="#8899aa" font-size="11" class="badge-text">VERIFIED UPSTREAM:</text>
-    <text x="-195" y="4.5" fill="#ffffff" font-size="11" font-weight="800" class="badge-text">DUCKDB</text>
-    <text x="-135" y="4.5" fill="#d4af37" font-size="11">◆</text>
-    <text x="-115" y="4.5" fill="#ffffff" font-size="11" font-weight="800" class="badge-text">META VELOX</text>
-    <text x="-20" y="4.5" fill="#d4af37" font-size="11">◆</text>
-    <text x="0" y="4.5" fill="#ffffff" font-size="11" font-weight="800" class="badge-text">LLVM</text>
-    <text x="50" y="4.5" fill="#d4af37" font-size="11">◆</text>
-    <text x="70" y="4.5" fill="#ffffff" font-size="11" font-weight="800" class="badge-text">APACHE DATAFUSION</text>
-    <text x="235" y="4.5" fill="#00ff88" font-size="11" class="badge-text">✓ GREEN</text>
+    <!-- Subtle Hairline Outer Border -->
+    <rect x=".75" y=".75" width="1198.5" height="378.5" rx="25.25" fill="none" stroke="#5FE7FF" stroke-opacity=".25" stroke-width="1.5"/>
   </g>
 </svg>
