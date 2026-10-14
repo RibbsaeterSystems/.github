@@ -85,10 +85,10 @@ We do not test our invariant architecture in isolation. ZeroSlop algorithms and 
 
 | System | Upstream Invariant Pull Request | Focus Area | Runtime / Language | Verification Outcome |
 | :--- | :--- | :--- | :--- | :--- |
-| **DuckDB** | [PR #15043](https://github.com/duckdb/duckdb/pull/15043) | Database Kernel | C++ | Row expression preservation & null dereference protection |
-| **Meta Velox** | [PR #10620](https://github.com/facebookincubator/velox/pull/10620) | Execution Runtime | C++20 | TopNRowNumber rank ordering under parallel async streams |
-| **LLVM** | [PR #115076](https://github.com/llvm/llvm-project/pull/115076) | Core Compiler | C++ | Non-power-of-two vector division vectorization legality |
-| **Apache DataFusion** | [PR #12654](https://github.com/apache/datafusion/pull/12654) | Query Engine | Rust | Execution-layer schema conformance & zero-copy memory safety |
+| **DuckDB** | [PR #26443](https://github.com/duckdb/duckdb/pull/26443) | Database Kernel | C++ | Row expression preservation & null dereference protection |
+| **Meta Velox** | [PR #18529](https://github.com/facebookincubator/velox/pull/18529) | Execution Runtime | C++20 | TopNRowNumber rank ordering under parallel async streams |
+| **LLVM** | [PR #215076](https://github.com/llvm/llvm-project/pull/215076) | Core Compiler | C++ | Non-power-of-two vector division vectorization legality |
+| **Apache DataFusion** | [PR #24394](https://github.com/apache/datafusion/pull/24394) | Query Engine | Rust | Execution-layer schema conformance & zero-copy memory safety |
 
 ---
 
