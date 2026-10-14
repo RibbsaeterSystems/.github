@@ -138,14 +138,8 @@ ZeroSlop's invariant standards are not theoretical. Our core engineering methods
 
 <div align="center">
 
-  ### Ready to stop pull request bloat in your engineering team?
-
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-    <img src="https://img.shields.io/badge/Deploy%20ZeroSlop-GitHub%20Marketplace-E33126?style=for-the-badge&logo=github&logoColor=white" alt="Deploy ZeroSlop on GitHub Marketplace" />
+    <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/deploy_zeroslop_banner_animated.svg" alt="Deploy ZeroSlop™ by Ribbsaeter Systems on GitHub Marketplace" width="100%" />
   </a>
-
-  <br/><br/>
-
-  [Official Website](https://www.ribbsaetersystems.com/) &bull; [ZeroSlop Portal](https://www.ribbsaetersystems.com/zeroslop) &bull; [Founder Profile](https://www.patrickribbsaeter.com/) &bull; [LinkedIn](https://www.linkedin.com/company/ribbsaeter-systems)
 
 </div>

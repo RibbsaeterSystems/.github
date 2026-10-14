@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Deploy ZeroSlop on GitHub Marketplace">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .sheen {
+        animation: sheenPass 6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      .beacon {
+        animation: beaconPulse 2.4s ease-in-out infinite;
+      }
+      .border-glow {
+        animation: borderPulse 4s ease-in-out infinite;
+      }
+      @keyframes sheenPass {
+        0%, 20% { transform: translateX(-400px); opacity: 0; }
+        35% { opacity: 0.25; }
+        50%, 100% { transform: translateX(1300px); opacity: 0; }
+      }
+      @keyframes beaconPulse {
+        0%, 100% { opacity: 0.4; r: 3.5; }
+        50% { opacity: 1; r: 4.5; filter: drop-shadow(0 0 6px #E33126); }
+      }
+      @keyframes borderPulse {
+        0%, 100% { stroke-opacity: 0.35; }
+        50% { stroke-opacity: 0.75; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .sheen, .beacon, .border-glow { animation: none; }
+      }
+    </style>
+
+    <!-- Obsidian & Swiss Red Gradients -->
+    <linearGradient id="cta-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07090E" />
+      <stop offset="50%" stop-color="#0A0D15" />
+      <stop offset="100%" stop-color="#05070A" />
+    </linearGradient>
+
+    <linearGradient id="btn-red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E33126" />
+      <stop offset="60%" stop-color="#C52217" />
+      <stop offset="100%" stop-color="#9E140C" />
+    </linearGradient>
+
+    <linearGradient id="gold-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#B9A06D" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#E5C789" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#B9A06D" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="text-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFBE8" />
+      <stop offset="50%" stop-color="#F0D060" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+
+    <!-- Radial Lighting Auras -->
+    <radialGradient id="red-aura-top" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#E33126" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#E33126" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#07090E" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="btn-glow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#E33126" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#E33126" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Precision Engineering Grid -->
+    <pattern id="cta-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#E33126" stroke-width="0.75" stroke-opacity="0.04" />
+      <circle cx="0" cy="0" r="1" fill="#E33126" fill-opacity="0.08" />
+    </pattern>
+
+    <!-- Sheen Gradient -->
+    <linearGradient id="sheen-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+
+    <clipPath id="card-clip">
+      <rect x="0" y="0" width="1200" height="300" rx="16" />
+    </clipPath>
+    <clipPath id="btn-clip">
+      <rect x="330" y="160" width="540" height="56" rx="10" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-clip)">
+    <!-- Base Background -->
+    <rect width="1200" height="300" fill="url(#cta-bg)" />
+    <rect width="1200" height="300" fill="url(#cta-grid)" />
+    <rect width="1200" height="180" fill="url(#red-aura-top)" />
+
+    <!-- Outer Structural Border -->
+    <rect class="border-glow" x="1.5" y="1.5" width="1197" height="297" rx="15" fill="none" stroke="#E33126" stroke-width="1.5" stroke-opacity="0.45" />
+
+    <!-- Corner Accents (Swiss Precision Marks) -->
+    <path d="M 12 4 L 4 4 L 4 12" stroke="#B9A06D" stroke-width="2" fill="none" stroke-opacity="0.75" />
+    <path d="M 1188 4 L 1196 4 L 1196 12" stroke="#B9A06D" stroke-width="2" fill="none" stroke-opacity="0.75" />
+    <path d="M 4 288 L 4 296 L 12 296" stroke="#B9A06D" stroke-width="2" fill="none" stroke-opacity="0.75" />
+    <path d="M 1196 288 L 1196 296 L 1188 296" stroke="#B9A06D" stroke-width="2" fill="none" stroke-opacity="0.75" />
+
+    <!-- Top Sovereign Badge Pill -->
+    <g transform="translate(420, 28)">
+      <rect x="0" y="0" width="360" height="26" rx="13" fill="#131924" stroke="#E33126" stroke-width="1" stroke-opacity="0.4" />
+      <circle class="beacon" cx="16" cy="13" r="4" fill="#E33126" />
+      <text class="mono" x="32" y="17" font-size="10.5" font-weight="700" fill="#FF8E85" letter-spacing="1.2">SOVEREIGN CONTINUOUS INTEGRATION AIRLOCK</text>
+    </g>
+
+    <!-- Main Headline -->
+    <text class="sans" x="600" y="96" text-anchor="middle" font-size="29" font-weight="800" fill="#F4F0E8" letter-spacing="-0.3">
+      Ready to eliminate pull request bloat in your engineering team?
+    </text>
+
+    <!-- Subtitle -->
+    <text class="sans" x="600" y="130" text-anchor="middle" font-size="14.5" font-weight="500" fill="#98A1B2" letter-spacing="0.2">
+      Enforce compiler invariants &#8226; Neutralize synthetic diff churn &#8226; Guarantee 100% green CI before code reaches main.
+    </text>
+
+    <!-- Button Ambient Glow -->
+    <ellipse cx="600" cy="188" rx="290" ry="40" fill="url(#btn-glow)" />
+
+    <!-- CTA Button Container -->
+    <g>
+      <!-- Shadow and Body -->
+      <rect x="330" y="160" width="540" height="56" rx="10" fill="url(#btn-red)" filter="drop-shadow(0 6px 20px rgba(227,49,38,0.45))" />
+      <rect x="330" y="160" width="540" height="56" rx="10" fill="none" stroke="url(#gold-border)" stroke-width="1.5" />
+      <line x1="335" y1="161.5" x2="865" y2="161.5" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1" />
+
+      <!-- Animated Sheen passing across button -->
+      <g clip-path="url(#btn-clip)">
+        <path class="sheen" d="M 200 140 L 260 140 L 210 230 L 150 230 Z" fill="url(#sheen-grad)" opacity="0" />
+      </g>
+
+      <!-- GitHub Mark SVG (white) -->
+      <g transform="translate(365, 178)">
+        <path fill="#FFFFFF" fill-rule="evenodd" clip-rule="evenodd" d="M10 0C4.477 0 0 4.484 0 10.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0020 10.017C20 4.484 15.522 0 10 0z" transform="scale(1)" />
+      </g>
+
+      <!-- Button Text -->
+      <text class="sans" x="402" y="194" font-size="14.5" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+        DEPLOY ZEROSLOP™ ON GITHUB MARKETPLACE
+      </text>
+
+      <!-- Directional Arrow -->
+      <text class="sans" x="830" y="195" font-size="18" font-weight="700" fill="url(#text-gold)">
+        →
+      </text>
+    </g>
+
+    <!-- Footer Coordinate Links -->
+    <g transform="translate(600, 264)">
+      <text class="mono" x="0" y="0" text-anchor="middle" font-size="11" font-weight="600" fill="#808796" letter-spacing="1.2">
+        <tspan fill="#E5C789">ZURICH</tspan> &#8226; <tspan fill="#E5C789">AMSTERDAM</tspan> &#8226; <tspan fill="#E5C789">EINDHOVEN</tspan> &#160;&#160;|&#160;&#160;
+        <tspan fill="#F4F0E8">ribbsaetersystems.com</tspan> &#160;&#8226;&#160;
+        <tspan fill="#F4F0E8">ZeroSlop Portal</tspan> &#160;&#8226;&#160;
+        <tspan fill="#F4F0E8">patrickribbsaeter.com</tspan> &#160;&#8226;&#160;
+        <tspan fill="#F4F0E8">LinkedIn</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
