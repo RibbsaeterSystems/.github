@@ -35,21 +35,20 @@ Every uninspected line of synthetic diff is an enterprise balance sheet liabilit
   <br/><br/>
 
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-    <img src="https://img.shields.io/badge/GitHub%20Marketplace-ZeroSlop™-blue?style=for-the-badge&logo=githubactions&logoColor=white" alt="ZeroSlop on GitHub Marketplace" />
+    <img src="https://img.shields.io/badge/GitHub%20Marketplace-ZeroSlop™-E33126?style=for-the-badge&logo=githubactions&logoColor=white" alt="ZeroSlop on GitHub Marketplace" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/apps/zeroslop-engine">
-    <img src="https://img.shields.io/badge/GitHub%20App-Install%201--Click-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Install GitHub App" />
+    <img src="https://img.shields.io/badge/GitHub%20App-Install%201--Click-E33126?style=for-the-badge&logo=github&logoColor=white" alt="Install GitHub App" />
   </a>
   &nbsp;&nbsp;
   <a href="https://ribbsaetersystems.com/zeroslop">
-    <img src="https://img.shields.io/badge/Interactive%20Simulator-Test%20Drive-gold?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Test Drive Simulator" />
+    <img src="https://img.shields.io/badge/Interactive%20Simulator-Test%20Drive-B9A06D?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Test Drive Simulator" />
   </a>
   &nbsp;&nbsp;
   <a href="https://ribbsaetersystems.com/zeroslop/security">
-    <img src="https://img.shields.io/badge/Security-Zero%20Retention-green?style=for-the-badge&logo=shield&logoColor=white" alt="Zero Retention Brief" />
+    <img src="https://img.shields.io/badge/Security-Zero%20Retention-10B981?style=for-the-badge&logo=shield&logoColor=white" alt="Zero Retention Brief" />
   </a>
-
 </div>
 
 <br/>
@@ -142,7 +141,7 @@ ZeroSlop's invariant standards are not theoretical. Our core engineering methods
   ### Ready to stop pull request bloat in your engineering team?
 
   <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
-    <img src="https://img.shields.io/badge/Deploy%20ZeroSlop-GitHub%20Marketplace-00F0FF?style=for-the-badge&logo=github&logoColor=black" alt="Deploy ZeroSlop on GitHub Marketplace" />
+    <img src="https://img.shields.io/badge/Deploy%20ZeroSlop-GitHub%20Marketplace-E33126?style=for-the-badge&logo=github&logoColor=white" alt="Deploy ZeroSlop on GitHub Marketplace" />
   </a>
 
   <br/><br/>
