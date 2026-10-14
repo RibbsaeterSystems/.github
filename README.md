@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero_animated.svg" alt="Ribbsaeter Systems — Developer Tooling & Invariant Laboratory" width="100%" />
+  <img src="https://raw.githubusercontent.com/RibbsaeterSystems/.github/main/assets/ribbsaeter_systems_hero.svg" alt="Ribbsaeter Systems — Developer Tooling & Invariant Laboratory" width="100%" />
 
   <br />
 

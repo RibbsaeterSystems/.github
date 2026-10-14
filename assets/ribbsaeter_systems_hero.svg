@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Ribbsaeter Systems — Developer Tooling &amp; Invariant Laboratory</title>
+  <desc id="desc">Precision-engineered sovereign Swiss systems banner in Ribbsaeter Systems brand colors: Obsidian Black, Swiss Red, and Warm Ivory.</desc>
+  <defs>
+    <style>
+      .signal{stroke-dasharray:10 18;animation:signalFlow 6s linear infinite}
+      .node-a{animation:nodePulse 2.6s ease-in-out infinite}
+      .node-b{animation:nodePulse 2.6s ease-in-out 1.3s infinite}
+      .orbit{transform-origin:1018px 190px;animation:orbitSpin 16s linear infinite}
+      .orbit-reverse{transform-origin:1018px 190px;animation:orbitSpin 11s linear infinite reverse}
+      .core{animation:corePulse 3.2s ease-in-out infinite}
+      .scan{animation:scanMove 8.5s ease-in-out infinite}
+      .beacon{animation:beaconGlow 2.4s ease-in-out infinite}
+      @keyframes signalFlow{to{stroke-dashoffset:-112}}
+      @keyframes nodePulse{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes orbitSpin{to{transform:rotate(360deg)}}
+      @keyframes corePulse{0%,100%{opacity:.6}50%{opacity:1}}
+      @keyframes beaconGlow{0%,100%{opacity:.45}50%{opacity:1}}
+      @keyframes scanMove{0%,12%{transform:translateX(-260px);opacity:0}24%{opacity:.14}55%{opacity:.06}72%,100%{transform:translateX(1220px);opacity:0}}
+      @media (prefers-reduced-motion:reduce){
+        .signal,.node-a,.node-b,.orbit,.orbit-reverse,.core,.scan,.beacon{animation:none}
+      }
+    </style>
+
+    <!-- Canonical Ribbsaeter Systems Palette Gradients -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".48" stop-color="#0C0708"/>
+      <stop offset="1" stop-color="#16090B"/>
+    </linearGradient>
+
+    <!-- Sovereign Swiss Red Laser -->
+    <linearGradient id="swissRed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D7352C"/>
+      <stop offset=".5" stop-color="#E33126"/>
+      <stop offset=".85" stop-color="#FF5544"/>
+      <stop offset="1" stop-color="#FF8A7A"/>
+    </linearGradient>
+
+    <!-- Warm Gold / Amber Accent -->
+    <linearGradient id="goldLaser" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B9A06D"/>
+      <stop offset=".5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#F4F0E8"/>
+    </linearGradient>
+
+    <!-- Radial Halo Glow: Swiss Red -->
+    <radialGradient id="haloRed" cx=".86" cy=".22" r=".75">
+      <stop offset="0" stop-color="#E33126" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#8B1410" stop-opacity=".07"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Radial Halo Top Left -->
+    <radialGradient id="haloCorner" cx=".12" cy=".18" r=".5">
+      <stop offset="0" stop-color="#E33126" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Architectural Grid: Warm Ivory -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#F4F0E8" stroke-opacity=".04"/>
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="glowRed" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="frame"><rect width="1200" height="380" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Base Surface Canvas -->
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#haloRed)"/>
+    <rect width="1200" height="380" fill="url(#haloCorner)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+
+    <!-- Kinetic Sheen Pass -->
+    <path class="scan" d="M-180 0h110L90 380H-20Z" fill="#F4F0E8" opacity="0"/>
+
+    <!-- Architectural Construction Lines -->
+    <path d="M0 342H1200" stroke="#F4F0E8" stroke-opacity=".10"/>
+    <path d="M740 0V380" stroke="#E33126" stroke-opacity=".12"/>
+    <circle cx="740" cy="342" r="3" fill="#E33126" opacity=".7"/>
+
+    <!-- Right-Hand Kinetic Invariant Signal Traces (Swiss Red Laser) -->
+    <g class="signal" opacity=".70" fill="none" stroke="url(#swissRed)" stroke-width="1.6">
+      <path d="M825 72h101l29 29h113"/>
+      <path d="M790 126h83l32 32h181"/>
+      <path d="M861 256h84l31-31h149"/>
+      <path d="M804 306h118l28-28h97"/>
+      <circle class="node-a" cx="825" cy="72" r="4" fill="#FF5544" stroke="none"/>
+      <circle class="node-b" cx="1068" cy="101" r="4" fill="#E33126" stroke="none"/>
+      <circle class="node-b" cx="790" cy="126" r="4" fill="#FF8A7A" stroke="none"/>
+      <circle class="node-a" cx="1086" cy="158" r="4" fill="#FF5544" stroke="none"/>
+      <circle class="node-a" cx="861" cy="256" r="4" fill="#E33126" stroke="none"/>
+      <circle class="node-b" cx="1125" cy="225" r="4" fill="#FF8A7A" stroke="none"/>
+    </g>
+
+    <!-- Kinetic Planetary / Invariant Reactor (Obsidian & Swiss Red) -->
+    <g>
+      <!-- Outer Reactor Casing -->
+      <circle cx="1018" cy="190" r="82" fill="#0E0507" stroke="#F4F0E8" stroke-opacity=".22"/>
+      <circle class="orbit" cx="1018" cy="190" r="70" fill="none" stroke="url(#swissRed)" stroke-width="1.6" stroke-dasharray="52 18 6 24"/>
+      <circle class="orbit-reverse" cx="1018" cy="190" r="49" fill="none" stroke="#F4F0E8" stroke-opacity=".55" stroke-width="1.2" stroke-dasharray="22 14"/>
+      
+      <!-- Orbiting Satellites -->
+      <g class="orbit">
+        <circle cx="1018" cy="120" r="6" fill="#FF5544" filter="url(#glowRed)"/>
+        <circle cx="1079" cy="224" r="5" fill="#E33126"/>
+        <circle cx="957" cy="224" r="4.5" fill="#F4F0E8"/>
+      </g>
+
+      <!-- Sovereign Invariant Hexagon Core -->
+      <g class="core">
+        <path d="m1018 158 28 16v32l-28 16-28-16v-32Z" fill="#200609" stroke="url(#swissRed)" stroke-width="2.2" filter="url(#glowRed)"/>
+        <circle cx="1018" cy="190" r="12" fill="url(#swissRed)"/>
+        <circle cx="1018" cy="190" r="4.5" fill="#F4F0E8"/>
+      </g>
+
+      <!-- Hairline Reticle Crosshairs -->
+      <path d="M934 190h35m98 0h35M1018 106v35m0 98v35" stroke="#E33126" stroke-opacity=".35" stroke-dasharray="4 8"/>
+    </g>
+
+    <!-- Sovereign Brand Typography: Ribbsaeter Systems Identity -->
+    <g font-family="'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+      <!-- Top Tagline Badge -->
+      <g transform="translate(72, 54)">
+        <rect width="388" height="26" rx="13" fill="#1C080B" stroke="#E33126" stroke-opacity=".55" stroke-width="1.2"/>
+        <circle cx="14" cy="13" r="4.5" fill="#E33126" class="beacon"/>
+        <text x="26" y="17" fill="#FF8A7A" font-size="11" font-weight="700" letter-spacing="2.2">DEVELOPER TOOLING &amp; INVARIANT LABORATORY</text>
+      </g>
+
+      <!-- Sovereign Wordmark Monolith in Warm Ivory (#F4F0E8) -->
+      <text x="68" y="162" fill="#F4F0E8" font-size="58" font-weight="900" letter-spacing="-1.8">RIBBSAETER</text>
+      <text x="68" y="222" fill="#F4F0E8" font-size="58" font-weight="900" letter-spacing="-1.8">SYSTEMS</text>
+
+      <!-- Iconic Swiss Red Laser Rule -->
+      <rect x="72" y="244" width="590" height="3.5" rx="1.75" fill="url(#swissRed)" filter="url(#glowRed)"/>
+
+      <!-- Subtitle -->
+      <text x="72" y="291" fill="#F4F0E8" font-size="21" font-weight="600" letter-spacing="-.2">Deterministic pull request invariants &amp; diff minimization.</text>
+
+      <!-- Technical Invariant Badges Row -->
+      <g transform="translate(72, 316)">
+        <text x="0" y="12" fill="#B9A06D" font-size="13" font-weight="700" letter-spacing="2.2">DIFF MINIMIZATION  ·  TEST PRESERVATION  ·  12-SHIELD CWE AIRLOCK</text>
+      </g>
+    </g>
+
+    <!-- Swiss Coordinate Watermark -->
+    <text x="1128" y="356" text-anchor="end" fill="#A9A095" font-family="Consolas,monospace" font-size="11" letter-spacing="1.6">ZÜRICH · AMSTERDAM · EINDHOVEN · CH / 47.3769° N</text>
+
+    <!-- Outer Perimeter Swiss Red / Cream Border -->
+    <rect x=".75" y=".75" width="1198.5" height="378.5" rx="25.25" fill="none" stroke="#E33126" stroke-opacity=".45" stroke-width="1.5"/>
+  </g>
+</svg>
