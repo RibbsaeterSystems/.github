@@ -52,9 +52,9 @@ Every uninspected line of synthetic diff is an enterprise balance sheet liabilit
 4. **Zero-Click Blast Radius & Single In-Place PR Card**: Post-processing outputs a concise, self-updating PR status verdict directly in GitHub without third-party dashboard clutter.
 5. **Zero Data Retention (Enterprise Sovereign Standard)**: All diff evaluations execute ephemerally in RAM and are purged immediately. No code is stored on disk, and zero proprietary IP is transmitted to external LLM providers.
 
-#### Two 1-Click Deployment Options:
-* 🚀 **GitHub App (1-Click Install)**: [Install ZeroSlop Engine App](https://github.com/apps/zeroslop-engine) &mdash; Organization-wide webhook enforcement with single self-updating PR verdict cards.
-* ⚙️ **GitHub Action**: [Deploy ZeroSlop Action](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) &mdash; Two-line YAML step running inside volatile GitHub Actions runner memory.
+#### Two Free Trial Alternatives to Choose From:
+* 🚀 **Alternative 1: 14-Day Free Trial (1-Click GitHub App · Recommended for Orgs)**: [Install ZeroSlop Engine App (14-Day Free Trial) →](https://github.com/apps/zeroslop-engine) — 2 weeks completely free, zero YAML setup, organization-wide webhook monitoring with single self-updating in-place PR verdict cards.
+* ⚙️ **Alternative 2: 1-PR Instant Evaluation Try (GitHub Action · CI Pipeline Step)**: [Deploy ZeroSlop Action (1-PR Free Try) →](https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems) — 1 complimentary PR audit out of the box with zero credit card required. Two-line YAML step running inside volatile GitHub Actions runner memory.
 
 ---
 
