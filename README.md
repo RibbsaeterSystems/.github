@@ -11,13 +11,27 @@
     <a href="https://patrickribbsaeter.com"><b>patrickribbsaeter.com</b></a>
   </p>
 
+  <p align="center">
+    <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
+      <img src="https://img.shields.io/badge/GitHub_Marketplace-Official_Developer-00F0FF?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117" alt="Official GitHub Marketplace Developer" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/marketplace/actions/zeroslop-by-ribbsaeter-systems">
+      <img src="https://img.shields.io/badge/Marketplace_Partner-Ribbsaeter_Systems-10B981?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0d1117" alt="GitHub Marketplace Partner" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/apps/zeroslop-engine">
+      <img src="https://img.shields.io/badge/GitHub_App-ZeroSlop--Engine-8B5CF6?style=for-the-badge&logo=probot&logoColor=white&labelColor=0d1117" alt="GitHub App ZeroSlop-Engine" />
+    </a>
+  </p>
+
 </div>
 
 ---
 
 ### Executive Overview
 
-**Ribbsaeter Systems** is a specialized developer tooling house and software invariant laboratory founded by **[Patrick Ribbsaeter](https://patrickribbsaeter.com)**. We engineer deterministic pull request gatekeepers, compiler-grade invariant verifiers, and production developer tools designed to protect enterprise codebases against synthetic bloat and AI-generated regressions.
+**Ribbsaeter Systems** is an **Official GitHub Marketplace Developer**, specialized developer tooling house, and software invariant laboratory founded by **[Patrick Ribbsaeter](https://patrickribbsaeter.com)**. We engineer deterministic pull request gatekeepers, compiler-grade invariant verifiers, and production developer tools designed to protect enterprise codebases against synthetic bloat and AI-generated regressions.
 
 The marginal cost of software generation has collapsed to near-zero. Autonomous coding agents synthesize hundreds of lines of code in seconds—yet over 80% of AI-generated pull requests introduce unreviewed surface area, cosmetic churn, and unauthorized test deletions to bypass CI. 
 
