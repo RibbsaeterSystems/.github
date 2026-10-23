@@ -89,7 +89,7 @@ Every uninspected line of synthetic diff is an enterprise balance sheet liabilit
 
 ### The Wall of Sovereign Proof (Upstream Engineering Proof Ledger)
 
-ZeroSlop's invariant standards are not theoretical. Our core engineering methods have been battle-tested and merged directly into the most demanding compilers, query engines, runtimes, and databases in modern computing across 4 foundational engineering pillars:
+ZeroSlop's invariant standards are not theoretical. Our core engineering methods are engineered to satisfy the strict invariant standards of the most demanding compilers, query engines, runtimes, and databases in modern computing across 4 foundational engineering pillars:
 
 #### ⚡ 1. Frontier AI Inference, GPU Compilers & LLM Runtimes
 *KV-cache prefix optimization, GPU kernel interface slots, model tokenizer parity, and high-throughput inference serving.*
@@ -126,15 +126,11 @@ ZeroSlop's invariant standards are not theoretical. Our core engineering methods
 
 | Project | Domain & Stack | Architectural Invariant & Engineering Focus | Upstream Work |
 | :--- | :--- | :--- | :---: |
-| **Apache Arrow** | Columnar Format · Rust | Correctness fix for Fields::filter_leaves nested traversal on ListView and LargeListView | **Merged**<br/>[PR #11657](https://github.com/apache/arrow-rs/pull/11657) |
 | **DuckDB** | Database · C++ | PIVOT IN list zero-argument `row()` expression preservation and null dereference guard | **Merged**<br/>[PR #26443](https://github.com/duckdb/duckdb/pull/26443) |
 | **Meta Velox** | Query Engine · C++20 | TopNRowNumber in-memory rank ordering correctness and partition stream execution parity | **Merged**<br/>[PR #18529](https://github.com/facebookincubator/velox/pull/18529) |
-| **Apache DataFusion** | Query Engine · Rust | Execution-layer schema conformance across in-memory physical execution and aggregation | **Merged**<br/>[PR #24394](https://github.com/apache/datafusion/pull/24394) |
 | **Valkey** | Datastore · C99 | Cluster key-slot resolution and client-side cache validation for arbitrary key commands | **Merged**<br/>[PR #4424](https://github.com/valkey-io/valkey/pull/4424) |
 | **ClickHouse** | OLAP Engine · C++20 | Bounds validation on parallel replicas legacy query plan limit enforcement pipeline | **174/176 Green**<br/>[PR #114954](https://github.com/ClickHouse/ClickHouse/pull/114954) |
-| **Apache DataFusion** | Query Engine · Rust | PushDownFilter clippy mutable key type allow annotations for logical Expr hash sets | **43/43 Green**<br/>[PR #26189](https://github.com/apache/datafusion/pull/26189) |
-| **Apache DataFusion** | Query Engine · Rust | Safe downcast to FixedSizeBinaryArray in CASE literal vectorized lookup evaluation table | **Merged**<br/>[PR #26096](https://github.com/apache/datafusion/pull/26096) |
-| **Apache DataFusion** | Query Engine · Rust | Sort-merge semi, anti, and mark join key equality routing via JoinKeyComparator | **42/42 Green**<br/>[PR #26006](https://github.com/apache/datafusion/pull/26006) |
+| **ArcticDB** | Versioned Store · C++ | Pipelined asynchronous chunk reads during multi-version background compaction | **Checks Green**<br/>[PR #3324](https://github.com/man-group/ArcticDB/pull/3324) |
 | **Redpanda** | Streaming · C++20 | RPC transport memory semaphore unit retention across queued outbound request entries | **9/9 Green**<br/>[PR #31594](https://github.com/redpanda-data/redpanda/pull/31594) |
 | **Supabase Supavisor** | Pooler · Elixir | PostgreSQL query cancellation key synchronization across pooled backend connection reuse | **Checks Green**<br/>[PR #1149](https://github.com/supabase/supavisor/pull/1149) |
 
